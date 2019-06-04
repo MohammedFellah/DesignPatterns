@@ -14,7 +14,6 @@ public class Chien extends Animal {
         return couleur;
     }
 
-
     public String getNom() {
         return nom;
     }

@@ -22,7 +22,6 @@ public class Chat extends Animal{
 
    public Animal makeCopy() {
         Chat chat1 = null;
-
         try {
             chat1 = (Chat) super.clone();
         } catch (CloneNotSupportedException e) {

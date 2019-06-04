@@ -11,7 +11,7 @@ public class Main {
 
         Chat chatEdited = (Chat) fabriqueAnimal.updateAnimal(x,"Blanche","toto");
 
-        System.out.println("L'original : "+x);
+        System.out.println("Le chat est : "+x);
         System.out.println("La copy de l'objet : "+chatCloned);
         System.out.println("L'objet modifié : "+chatEdited);
 
