@@ -7,7 +7,7 @@ import bot.IBot;
 public class BotAdapter implements BotTalker{
     IBot iBot;
 
-    //créer un bot de la langue en fonction du premier mot reçu par le client
+    //créer un bot de la langue en fonction du premier mot reçu par le client.
     public BotAdapter(String premierMot) {
         if(premierMot.equals("Bonjour")){
             iBot = new FR();

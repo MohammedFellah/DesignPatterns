@@ -1,6 +1,9 @@
 package bot;
 
+//class bot anglais
+
 public class EN implements IBot {
+
 
     @Override
     public void parlerFR(String text) {

@@ -1,5 +1,6 @@
 package bot;
 
+//interface bot
 public interface IBot {
 
     public void parlerFR(String text);

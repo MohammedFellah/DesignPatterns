@@ -1,5 +1,6 @@
 package bot.adapter;
 
+//bot executer qui interroge l'adaptateur
 public class BotExecuter implements BotTalker {
 
     BotAdapter botAdapter;

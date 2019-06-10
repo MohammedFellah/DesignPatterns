@@ -1,5 +1,6 @@
 package bot;
 
+//class bot fr
 public class FR implements IBot {
 
 
